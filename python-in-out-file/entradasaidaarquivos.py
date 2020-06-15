@@ -1,18 +1,18 @@
-arquivo = open('J:\\Desenvolvimento\\python-basico\\pthon-in-out-file\\teste.txt', 'r+')
-'''try:
-  arquivo.read()
+arquivo = open('your_path', 'r+')
+try:
+  file.read()
 except:
-  arquivo.write()'''
+  file.write()
 
-for linha in arquivo:
-  if linha == 'python':
+for row in file:
+  if row == 'python':
     
 
-'''for c in range(3):
-  nome = input('Nome: ')
-  idade = input('Idade: ')
-  arquivo.write(nome)
-  arquivo.write('\t\t\t')
-  arquivo.write(idade)
-  arquivo.write('\n')'''
+for c in range(3):
+  name = input('Nome: ')
+  age = input('Idade: ')
+  file.write(name)
+  file.write('\t\t\t')
+  file.write(age)
+  file.write('\n')'''
 
