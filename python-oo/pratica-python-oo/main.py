@@ -1,11 +1,11 @@
-from pessoa import Pessoa
-from aluno import Aluno
-from funcionario import Funcionario
+from person import Person
+from student import Student
+from employee import Employee
 
-pessoa_aluno = Pessoa('Python', 12312312345, 'Javalandia', 12)
-print(pessoa_aluno)
-aluno1 = Aluno(pessoa_aluno, 123)
-print(aluno1)
-pessoa_funcionario = Pessoa('Java', 78978978990, 'Scriptlandia', 85)
-funcionario1 = Funcionario(pessoa_funcionario, 123456, 'RH')
-print(funcionario1)
+person_student = Person('Python', 12312312345, 'Javalandia', 12)
+print(person_student)
+student1 = Student(person_student, 123)
+print(student1)
+person_student = Person('Java', 78978978990, 'Scriptlandia', 85)
+employee1 = Employee(person_student, 123456, 'RH')
+print(employee1)
