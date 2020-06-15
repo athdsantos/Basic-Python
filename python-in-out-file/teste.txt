@@ -1,0 +1,3 @@
+python			23
+java			52
+cobol			521
