@@ -9,8 +9,8 @@ for row in file:
     
 
 for c in range(3):
-  name = input('Nome: ')
-  age = input('Idade: ')
+  name = input('Name: ')
+  age = input('Age: ')
   file.write(name)
   file.write('\t\t\t')
   file.write(age)
