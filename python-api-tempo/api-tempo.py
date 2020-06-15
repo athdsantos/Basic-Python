@@ -4,18 +4,18 @@ from pprint import pprint
 
 def get_request():
   try:
-    req = get('http://api.openweathermap.org/data/2.5/weather?q=Brasilia&appid=29a246b1b59f2718d4e4c81c23a8e5a9')
+    req = get('http://api.openweathermap.org/data/2.5/weather?q=Brasilia&appid=your_id')
     if 200 >= req.status_code <= 299:
       return_request()
     else:
-      print('ERRO! A requisição falhou!')
-  except Exception as erro:
-    print(f'ERRO! {erro}')
+      print('ERROR! The site is down!')
+  except Exception as error:
+    print(f'ERROR! {error}')
 
 def return_request():
   try:
-    cidade = str(input('Cidade: ').capitalize())
-    req = get('http://api.openweathermap.org/data/2.5/weather?q=' + cidade + '&appid=29a246b1b59f2718d4e4c81c23a8e5a9')
+    city = str(input('City: ').capitalize())
+    req = get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=your_id')
     # print(req.status_code)
     for_dict = loads(req.text)
     # pprint(for_dict)
@@ -29,8 +29,8 @@ def return_request():
     print(f'Humidity: {for_dict["main"]["humidity"]}%')
     #for chave, valor in for_dict.items():
       #print(f'{chave} : {valor}')
-  except Exception as erro:
-    print(f'ERRO! {erro}')
+  except Exception as error:
+    print(f'ERROR! {error}')
 
 
 get_request()
