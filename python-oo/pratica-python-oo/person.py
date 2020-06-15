@@ -6,4 +6,4 @@ class Person:
     self.age = age
   
   def __str__(self):
-    return f'Name: {self.name}\nCPF: {self.cpf}\nCity: {self.city}\nIdade: {self.age}\n'
+    return f'Name: {self.name}\nCPF: {self.cpf}\nCity: {self.city}\Age: {self.age}\n'
