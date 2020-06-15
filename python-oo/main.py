@@ -1,15 +1,15 @@
-from veiculo import Veiculo
-from carro import Carro
+from vehicle import Vehicle
+from car import Car
 
-veiculo1 = Veiculo('Preto','Ford', 10, 2)
-veiculo1.ficha_veiculo()
-veiculo1.abastecer(25)
-veiculo1.ficha_veiculo()
-veiculo2 = Veiculo('Prata', 'FIAT', 15, 3)
-veiculo2.ficha_veiculo()
-veiculo2.abastecer(65)
-veiculo2.ficha_veiculo()
-carro1 = Carro('Rosa', 'Honda', 50)
-carro1.ficha_veiculo()
-carro1.abastecer(51)
-carro1.ficha_veiculo()
+vehicle1 = Vehicle('Black','Ford', 10, 2)
+vehicle1.vehicle_plug()
+vehicle1.to_fuel(25)
+vehicle1.vehicle_plug()
+vehicle2 = Vehicle('Silver', 'FIAT', 15, 3)
+vehicle2.vehicle_plug()
+vehicle2.to_fuel(65)
+vehicle2.vehicle_plug()
+car1 = Car('Red', 'Honda', 50)
+car1.vehicle_plug()
+car1.to_fuel(51)
+car1.vehicle_plug()
