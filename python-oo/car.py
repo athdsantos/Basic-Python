@@ -1,4 +1,4 @@
-from veiculo import Vehicle
+from vehicle import Vehicle
 
 class Car(Vehicle):
 
