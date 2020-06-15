@@ -8,7 +8,7 @@ def get_requisicao():
     if 200 >= req.status_code <= 299:
       return_information()
     else:
-      print('ERRO! O site está inacessível!')
+      print('ERRO! The site is down!')
   except Exception as erro:
     print(f'ERRO! {erro}')
 
