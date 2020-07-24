@@ -2,22 +2,22 @@ import os
 
 def createFoldersDevWeb():
   folder = input('Folder name: ')
-  os.makedirs(f'J:\Desenvolvimento\dev-web\{folder}\css')
-  open(f'J:\Desenvolvimento\dev-web\{folder}\css\style.css', '+w').close()
-  os.makedirs(f'J:\Desenvolvimento\dev-web\{folder}\js')
-  os.makedirs(f'J:\Desenvolvimento\dev-web\{folder}\images')
-  open(f'J:\Desenvolvimento\dev-web\{folder}\js\script.js', '+w').close()
-  open(f'J:\Desenvolvimento\dev-web\{folder}\index.html', '+w').close()
-  os.chdir(f'J:\Desenvolvimento\dev-web\{folder}')
+  os.makedirs(f'your_path\{folder}\css')
+  open(f'your_path\{folder}\css\style.css', '+w').close()
+  os.makedirs(f'your_path\{folder}\js')
+  os.makedirs(f'your_path\{folder}\images')
+  open(f'your_path\{folder}\js\script.js', '+w').close()
+  open(f'your_path\{folder}\index.html', '+w').close()
+  os.chdir(f'your_path\{folder}')
   os.system(command='code .')
 
 
 def createFoldersBasicPython():
   folder = input('Folder name: ')
-  os.mkdir(f'J:\Desenvolvimento\python-basico\{folder}')
+  os.mkdir(f'your_path\{folder}')
   fileName = input('Type the file name: ')
-  open(f'J:\Desenvolvimento\python-basico\{folder}\{fileName}.py', '+w').close()
-  os.chdir(f'J:\Desenvolvimento\dev-web\{folder}')
+  open(f'your_path\{folder}\{fileName}.py', '+w').close()
+  os.chdir(f'your_path\{folder}')
   os.system(command='code .')
 
 
