@@ -8,6 +8,8 @@ def createFoldersDevWeb():
   os.makedirs(f'J:\Desenvolvimento\dev-web\{folder}\images')
   open(f'J:\Desenvolvimento\dev-web\{folder}\js\script.js', '+w').close()
   open(f'J:\Desenvolvimento\dev-web\{folder}\index.html', '+w').close()
+  os.chdir(f'J:\Desenvolvimento\dev-web\{folder}')
+  os.system(command='code .')
 
 
 def createFoldersBasicPython():
@@ -15,6 +17,8 @@ def createFoldersBasicPython():
   os.mkdir(f'J:\Desenvolvimento\python-basico\{folder}')
   fileName = input('Type the file name: ')
   open(f'J:\Desenvolvimento\python-basico\{folder}\{fileName}.py', '+w').close()
+  os.chdir(f'J:\Desenvolvimento\dev-web\{folder}')
+  os.system(command='code .')
 
 
 # Main code #
