@@ -1,4 +1,5 @@
-# Basic-Python
+# Some Python Codes
 
 Codes and practices about Python language.
-#Basic Level
+
+- Python 3.7
