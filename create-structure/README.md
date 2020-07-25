@@ -1,4 +1,4 @@
-# [In development] Create sctucture
+# [In development] Create structure
 
 Script for create basic structure of a project.
 
