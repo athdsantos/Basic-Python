@@ -1,4 +1,4 @@
-# [In development] Create structure
+# [In development] Create Structure .py
 
 Script for create basic structure of a project.
 
